@@ -1,29 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV cá nhân của Nguyễn Hữu Giáp</title>
-    <link rel="stylesheet" href="1.css" />
+    <title>CV - [Tên của bạn]</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a href="index.html">Go back home</a>
-    <a href="gallery.html">View gallery</a>
+    <div class="container my-5">
+      <div class="row">
+        <!-- Cột bên trái: Thông tin cá nhân -->
+        <div class="col-md-4 bg-dark text-white p-4">
+          <div class="text-center">
+            <img
+              src="images/profile.jpg"
+              alt="Ảnh đại diện"
+              class="img-fluid rounded-circle mb-3"
+            />
+            <h1 class="mb-3">[Tên của bạn]</h1>
+            <p class="lead">Sinh viên Khoa học và Kỹ thuật Máy tính</p>
+            <p class="text-muted">Định hướng Thiết kế Vi mạch Số</p>
+          </div>
+          <hr class="bg-light" />
+          <h4>Thông tin liên hệ</h4>
+          <ul class="list-unstyled">
+            <li><strong>Email:</strong> example@example.com</li>
+            <li><strong>Điện thoại:</strong> +84 123 456 789</li>
+            <li>
+              <strong>GitHub:</strong>
+              <a href="https://github.com/username" class="text-white"
+                >github.com/username</a
+              >
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a href="https://linkedin.com/in/username" class="text-white"
+                >linkedin.com/in/username</a
+              >
+            </li>
+          </ul>
+          <hr class="bg-light" />
+          <h4>Kỹ năng</h4>
+          <ul>
+            <li>Thiết kế vi mạch số (Digital IC Design)</li>
+            <li>Lập trình Verilog/SystemVerilog</li>
+            <li>Lập trình Python, C/C++</li>
+            <li>Sử dụng công cụ EDA: Cadence, Synopsys</li>
+            <li>Kiến thức về FPGA và ASIC</li>
+            <li>Làm việc với Linux</li>
+            <li>Kỹ năng làm việc nhóm và giao tiếp</li>
+          </ul>
+          <hr class="bg-light" />
+          <h4>Ngôn ngữ</h4>
+          <ul>
+            <li>Tiếng Việt: Bản ngữ</li>
+            <li>Tiếng Anh: IELTS 7.0</li>
+            <li>Tiếng Nhật: JLPT N3</li>
+          </ul>
+        </div>
 
-    <h1>Nguyễn Hữu Giáp (Design Verification - IC Design Engineer)</h1>
-    <img src="images/001.png" alt="" />
-    <hr />
+        <!-- Cột bên phải: Nội dung chính -->
+        <div class="col-md-8 p-4">
+          <h2 class="text-primary">Giới thiệu</h2>
+          <p>
+            Tôi là sinh viên năm ba tại Trường Đại học Việt Nhật, chuyên ngành
+            Khoa học và Kỹ thuật Máy tính, định hướng Thiết kế Vi mạch Số. Tôi
+            có niềm đam mê với công nghệ vi mạch và mong muốn phát triển sự
+            nghiệp trong lĩnh vực thiết kế vi mạch số, đặc biệt là các ứng dụng
+            trong IoT và AI. Tôi đang tìm kiếm cơ hội thực tập hoặc làm việc để
+            áp dụng kiến thức đã học và nâng cao kỹ năng chuyên môn.
+          </p>
+          <hr />
 
-    <div class="thongtin"><b>Tên: </b> <i> Nguyễn Hữu Giáp</i></div>
-    <div class="thongtin"><b>Ngày sinh: </b> <i> 25/07/2004</i></div>
-    <div class="thongtin"><b>Số điện thoại: </b> <i> 0327455940</i></div>
-    <div class="thongtin">
-      <b>Facebook: </b>
-      <i>
-        <a href="https://www.facebook.com/giapthptdp"
-          >https://www.facebook.com/giapthptdp</a
-        ></i
-      >
+          <h2 class="text-primary">Học vấn</h2>
+          <ul class="list-unstyled">
+            <li>
+              <h5>Trường Đại học Việt Nhật</h5>
+              <p>
+                <strong>Chuyên ngành:</strong> Khoa học và Kỹ thuật Máy tính
+              </p>
+              <p><strong>Định hướng:</strong> Thiết kế Vi mạch Số</p>
+              <p><strong>Thời gian:</strong> 2021 - Hiện tại</p>
+            </li>
+          </ul>
+          <hr />
+
+          <h2 class="text-primary">Kinh nghiệm</h2>
+          <ul class="list-unstyled">
+            <li>
+              <h5>Dự án Thiết kế Bộ xử lý đơn giản (Simple CPU)</h5>
+              <p><strong>Vai trò:</strong> Thành viên nhóm</p>
+              <p>
+                <strong>Mô tả:</strong> Thiết kế và mô phỏng một bộ xử lý đơn
+                giản sử dụng Verilog, kiểm tra hiệu năng trên FPGA.
+              </p>
+              <p><strong>Công cụ:</strong> Verilog, Xilinx Vivado</p>
+            </li>
+            <li>
+              <h5>Dự án Thiết kế Mạch Logic</h5>
+              <p><strong>Vai trò:</strong> Trưởng nhóm</p>
+              <p>
+                <strong>Mô tả:</strong> Thiết kế và tối ưu hóa các mạch logic cơ
+                bản (AND, OR, NOT) sử dụng công cụ Cadence.
+              </p>
+              <p><strong>Công cụ:</strong> Cadence Virtuoso</p>
+            </li>
+          </ul>
+          <hr />
+
+          <h2 class="text-primary">Dự án cá nhân</h2>
+          <ul class="list-unstyled">
+            <li>
+              <h5>Thiết kế Mạch Đếm 8-bit</h5>
+              <p>
+                <strong>Mô tả:</strong> Thiết kế và mô phỏng mạch đếm 8-bit sử
+                dụng Verilog, kiểm tra hiệu năng trên FPGA.
+              </p>
+              <p><strong>Công cụ:</strong> Verilog, Xilinx Vivado</p>
+            </li>
+            <li>
+              <h5>Phân tích Hiệu năng Mạch Số</h5>
+              <p>
+                <strong>Mô tả:</strong> Phân tích và tối ưu hóa hiệu năng của
+                các mạch số cơ bản sử dụng công cụ Synopsys.
+              </p>
+              <p><strong>Công cụ:</strong> Synopsys Design Compiler</p>
+            </li>
+          </ul>
+          <hr />
+
+          <h2 class="text-primary">Giải thưởng và thành tích</h2>
+          <ul>
+            <li>Học bổng sinh viên xuất sắc năm học 2022-2023.</li>
+            <li>
+              Giải Nhì cuộc thi Thiết kế Mạch Logic tại trường Đại học Việt
+              Nhật.
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
