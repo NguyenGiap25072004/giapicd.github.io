@@ -1,0 +1,158 @@
+/* Basic Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center; /* Center the navigation links */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd; /* Subtle divider line */
+  padding-bottom: 5px;
+}
+
+/* Info Box (for Education, etc.) */
+.info-box {
+  margin-bottom: 20px;
+}
+
+.info-box h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  margin: 5px 0;
+}
+
+/* Project Styles */
+.project {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed; /* Fixed footer */
+  bottom: 0;
+  width: 100%;
+}
+
+#personal-info {
+  display: flex;
+  align-items: flex-start; /* Align to the top */
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  /* Style the contact information block */
+  display: flex;
+  flex-direction: column; /* Stack the name and contact info vertically */
+}
+
+.info h2 {
+  margin-bottom: 10px; /* Add some space below the name */
+}
+
+.info p {
+  margin: 0; /* Remove default paragraph margins */
+}
